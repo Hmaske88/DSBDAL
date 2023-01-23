@@ -1,0 +1,52 @@
+import math
+def sine(x):
+    print(math.sin(math.radians(x)))
+sine(90)
+
+def cosine(x):
+    print(math.cos(math.radians(x)))
+cosine(0)
+
+def tangent(x):
+    print(math.tan(math.radians(x)))
+tangent(0)
+
+import mpmath
+def secant(x):
+    print(mpmath.sec(mpmath.radians(x)))
+secant(0)
+
+import mpmath
+def cosecant(x):
+    print(mpmath.csc(mpmath.radians(x)))
+cosecant(90)
+
+import mpmath
+def cotangent(x):
+    print(mpmath.cot(mpmath.radians(x)))
+cotangent(45)
+
+f=1
+while(f):
+    n=int(input("Please enter a angle in degree :"))
+    print("Menu :")
+    print("1.sin")
+    print("2.cos")
+    print("3.tan")
+    print("4.sec")
+    print("5.cosec")
+    print("6.cot")
+    ch=int(input("\nPlease enter your choice:"))
+    if(ch==1):
+        sine(n)
+    elif(ch==2):
+        cosine(n)
+    elif(ch==3):
+        tangent(n)
+    elif(ch==4):
+        secant(n)
+    elif(ch==5):
+        cosecant(n)
+    elif(ch==6):
+        cotangent(n)
+    f=int(input("Do you want to continue (0/1) :"))
