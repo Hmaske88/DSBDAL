@@ -1,4 +1,5 @@
 <b>Descriptive Statistics - Measures of Central Tendency and variability</b>
+
 Perform the following operations on any open source dataset (e.g., data.csv)
 1. Provide summary statistics (mean, median, minimum, maximum, standard deviation) for
 a dataset (age, income etc.) with numeric variables grouped by one of the qualitative
