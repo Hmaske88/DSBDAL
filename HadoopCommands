@@ -1,0 +1,21 @@
+1. $ hdfs namenode -format
+
+2. $ start -dfs.sh
+
+3. $ start -yarn.sh
+
+4. $jps
+
+5. http://localhost:9870
+
+6. http://localhost:8088
+
+7. hdfs dfs -mkdir/test1
+
+8. hdfs dfs -ls
+    hdfs dfs -put/var/log/*/test1
+    
+9. http://localhost:9870/explorer.html
+
+10. stop -dfs.sh
+    stop -yarn.sh
